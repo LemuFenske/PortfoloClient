@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className='font-bold text-6xl'>Lemuel Fenske</h1>
         <h2 className='text-2xl'>Full Stack Web Developer</h2>
         <h3 className='text-slate-500'>
-          Soy un desarrollador Full Stack. Estudié en la academia Henry.</h3>
+          Soy un Desarrollador Web Full Stack.</h3>
           <div className="flex">
           <Link href='https://github.com/LemuFenske' target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon className="h-6 w-6 m-4 transform hover:scale-110" icon={faGithub} />

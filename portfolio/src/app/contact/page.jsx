@@ -24,7 +24,7 @@ export default function ContactPage() {
 
   const handleMail = async () => {
     try {
-      const response = await axios.post("https://portfolio-server-mocha.vercel.app/mail", formData);
+      const response = await axios.post("https://portfolioserver-production-3d8e.up.railway.app/mail", formData);
       console.log(response.data); // Respuesta del servidor, si es necesaria
       setEnviado(true); // Marcar el correo como enviado con éxito
       setFormData({ // Limpiar los campos del formulario después de enviar
