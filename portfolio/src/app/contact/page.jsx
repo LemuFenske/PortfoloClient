@@ -42,7 +42,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="flex h-screen flex-col pt-20 items-center justify-center bg-zinc-900">
+    <div className="flex min-h-screen flex-col pt-20 items-center justify-center bg-zinc-900">
       <div className="flex flex-col justify-center w-4/5 sm:w-2/3">
         <h1 className="mx-auto text-4xl font-bold">Contáctame</h1>
         
@@ -69,7 +69,7 @@ export default function ContactPage() {
             </div>
 
             <button
-              className="w-full bg-zinc-500 transition hover:bg-zinc-700 text-white font-semibold py-2 px-4 rounded"
+              className="w-full bg-zinc-500 transition hover:bg-zinc-700 text-white font-semibold py-2 mb-4 px-4 rounded"
               onClick={handleMail}
             >
               Enviar
