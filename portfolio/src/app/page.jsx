@@ -14,6 +14,7 @@ export default function Home() {
 
   return (
     <div className="flex h-screen flex-col items-center justify-between bg-zinc-900 ">
+       <link rel="icon" href="/favicon.ico" sizes="any" />
       <div className='my-auto flex flex-col w-full sm:w-2/3 ml-5'>
         <h1 className='font-bold text-6xl'>Lemuel Fenske</h1>
         <h2 className='text-2xl'>Full Stack Web Developer</h2>
