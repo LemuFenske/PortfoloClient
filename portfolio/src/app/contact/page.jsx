@@ -72,10 +72,10 @@ export default function ContactPage() {
           </div>
         </Link>
       </div>
-      <div className="flex flex-col justify-center items-center mb-10 w-4/5 sm:w-2/3 lg:w-1/2 z-30 mt-8 bg-white bg-opacity-30 rounded-lg">
+      <div className="flex flex-col justify-center items-center mb-10 w-11/12 sm:w-2/3 lg:w-1/2 z-30 mt-8 bg-white bg-opacity-30 rounded-lg">
         <h1 className="mx-auto text-2xl md:text-3xl font-bold mt-5 text-white">O envíame un correo</h1>
         
-        <div className="flex flex-col items-center justify-center mt-10 mb-5 w-4/5">
+        <div className="flex flex-col items-center justify-center mt-10 mb-5 w-11/12 md:w-4/5">
           <div className="flex flex-col w-full">
             <div className="flex flex-col mb-4">
               <label className="mb-2 text-white">Nombre:</label>
