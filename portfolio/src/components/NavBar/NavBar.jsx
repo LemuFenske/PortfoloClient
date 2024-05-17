@@ -12,8 +12,8 @@ export default function NavBar() {
   };
 
   return (
-    <div className="flex justify-center">
-      <div className="flex flex-col bg-zinc-900 py-5 px-3 sm:w-2/3 fixed w-full">
+    <div className="flex justify-center z-30 w-full">
+      <div className="flex flex-col  py-5 px-3 sm:w-2/3 w-full z-50">
         <div className="flex">
           <Link href="/" className="mx-3">
             <FontAwesomeIcon className="h-6 w-6 transform hover:scale-110" icon={faHome} />
@@ -36,7 +36,7 @@ export default function NavBar() {
               Sobre Mí
             </Link>
             <Link href="/projects" className="mr-3 ml-auto my-2 transform transition hover:text-gray-500" onClick={toggleMenu}>
-              Proyectos
+            Proyectos
             </Link>
             <Link href="/exp" className="mr-3 ml-auto my-2 transform transition hover:text-gray-500" onClick={toggleMenu}>
               Experiencia
