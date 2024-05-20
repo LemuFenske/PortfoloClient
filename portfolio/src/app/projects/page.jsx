@@ -5,6 +5,7 @@ import brianImage from './brian.png'
 import aprenderImage from './aprender.png'
 import maimaraImage from './maimara.png'
 import innovateImage from './innovate.png'
+import erpImage from './erp.png'
 import Link from 'next/link'
 import fondo from '../fondo2.png'
 import NavBar from "@/components/NavBar/NavBar"
@@ -28,7 +29,7 @@ export default function ProjectsPage() {
             <h1 className='mb-6 ml-3 text-3xl text-center font-bold transition hover:text-cyan-400 hover:scale-110 cursor-pointer'>Aprender Emprendedores</h1>
             <Image
               src={aprenderImage}
-              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer"
+              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer border-2 border-black"
               alt="asd"
               width={'80%'}
               height={0}
@@ -36,11 +37,23 @@ export default function ProjectsPage() {
             <p className='mt-4 w-4/5 mx-auto mb-10'>Diseñé y desarrollé una plataforma educativa en línea para una fotógrafa profesional utilizando WordPress, integrando pasarelas de pago que permiten a los alumnos acceder automáticamente a los cursos tras completar el pago. Los cursos están organizados de manera eficiente para mejorar la experiencia de aprendizaje. Además, la plataforma incluye enlaces directos a redes sociales y WhatsApp para una comunicación efectiva, y el diseño personalizado refleja la identidad visual de la fotógrafa. También implementé Tutor LMS para gestionar la funcionalidad de la escuela online, creando una solución completa y atractiva.</p>
           </div>
           <div>
+            
+            <h1 className='mb-6 ml-3 text-3xl text-center font-bold transition hover:text-blue-500 hover:scale-110 cursor-pointer'>Innovate ERP</h1>
+            <Image
+              src={erpImage}
+              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer border-2 border-black"
+              alt="asd"
+              width={'80%'}
+              height={0}
+            />
+            <p className='mt-4 w-4/5 mx-auto mb-10'>Estoy desarrollando un ERP integral utilizando tecnologías como Javascript, Next.js, Node.js y Express. Esta plataforma está diseñada para gestionar diversos aspectos empresariales con módulos de proveedores, clientes, productos, materia prima y contabilidad. Aunque actualmente se encuentra en desarrollo y no está aún desplegada, promete optimizar y centralizar la administración de recursos y operaciones comerciales de manera eficiente y eficaz.</p>
+          </div>
+          <div>
             <Link href='https://innovate-dev.vercel.app/' target='_blank'>
             <h1 className='mb-6 ml-3 text-3xl text-center font-bold transition hover:text-sky-800 hover:scale-110 cursor-pointer'>Innovate</h1>
             <Image
               src={innovateImage}
-              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer"
+              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer border-2 border-black"
               alt="asd"
               width={'80%'}
               height={0}
@@ -52,7 +65,7 @@ export default function ProjectsPage() {
             <h1 className='mb-6 ml-3 text-3xl text-center font-bold transition hover:text-green-700 hover:scale-110 cursor-pointer'>Maimara Mates</h1>
             <Image
               src={maimaraImage}
-              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer"
+              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer border-2 border-black"
               alt="asd"
               width={'80%'}
               height={0}
@@ -64,7 +77,7 @@ export default function ProjectsPage() {
             <h1 className='mb-6 ml-3 text-3xl text-center font-bold transition hover:text-gray-500 hover:scale-110 cursor-pointer'>Brian Yost Web</h1>
             <Image
               src={brianImage}
-              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer"
+              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer border-2 border-black"
               alt="asd"
               width={'80%'}
               height={0}
@@ -76,7 +89,7 @@ export default function ProjectsPage() {
             <h1 className='mb-6 ml-3 text-3xl text-center font-bold transition hover:text-gray-800 hover:scale-110 cursor-pointer'>ElectroShop</h1>
             <Image
               src={electroshopImage}
-              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer"
+              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer border-2 border-black"
               alt="asd"
               width={'80%'}
               height={0}
@@ -87,7 +100,7 @@ export default function ProjectsPage() {
             <h1 className='mb-6 ml-3 text-3xl text-center font-bold transition hover:text-yellow-500 hover:scale-110 cursor-pointer'>Pokemon</h1>
             <Image
               src={pokemonImage}
-              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer"
+              className="rounded-xl w-4/5 mx-auto transition hover:scale-105 cursor-pointer border-2 border-black"
               alt="asd"
               width={'80%'}
               height={0}
