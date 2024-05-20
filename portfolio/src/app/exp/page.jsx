@@ -11,7 +11,7 @@ export default function ExpPage() {
         objectFit="cover"
         quality={100}
         alt="Fondo de Landing Page"
-        className="fixed top-0 left-0 z-10"
+        className="fixed h-screen top-0 left-0 z-10"
       />
       <NavBar/>
       <div className="flex flex-col items-center w-4/5 sm:w-2/3 z-30 text-white">
